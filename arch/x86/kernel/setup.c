@@ -884,7 +884,7 @@ void __init setup_arch(char **cmdline_p)
 	 */
 	__flush_tlb_all();
 #else
-	printk(KERN_INFO "kalyani: setup_arch(): Command line: %s\n", boot_command_line);
+	printk(KERN_INFO "kalyani nanhe: setup_arch(): Command line: %s\n", boot_command_line);
 #endif
 
 	/*
